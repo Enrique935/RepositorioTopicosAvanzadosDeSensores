@@ -1,2 +1,6 @@
 # RepositorioTopicosAvanzadosDeSensores
-Repositorio para las evidencias de la materia de Tópicos Avanzados de Sensores
+## Integrantes del equipo
+
+- **Alejandro Sigala Martínez**
+- **Miguel Angel Rendón Díaz**
+- **Enrique Bautista Montano**
