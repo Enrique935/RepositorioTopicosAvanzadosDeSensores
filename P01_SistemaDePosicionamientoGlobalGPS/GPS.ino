@@ -35,7 +35,7 @@ char c = gpsSerial.read();
         // Extrae la latitud y longitud como cadenas
         String latitudeStr = currentLine.substring(currentLine.indexOf(',', commaIndex + 1) + 1, currentLine.indexOf(',', currentLine.indexOf(',', commaIndex + 1) + 1));
         String longitudeStr = currentLine.substring(currentLine.indexOf(',', currentLine.indexOf(',', currentLine.indexOf(',', commaIndex + 1) + 1) + 1) + 1);
-        int firstCommaPos = longitudeStr.indexOf(',');
+        int firstCommaPos = longitudeStr.indexOf(',');    //Se eliminan caracteres indeseados después de la longitud
         longitudeStr = longitudeStr.substring(0, firstCommaPos);
 
         // Imprime los valores (puedes comentar esta línea después de verificar)
