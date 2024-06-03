@@ -14,6 +14,7 @@ void loop() {
     float C2H6Oppm = 15.0 * pow(RS, -1.0);
   //Nivel de alcohol en la sangre
     float BAC = C2H6Oppm*0.004;
+    //Serial.println(BAC);
     Serial.println(C2H6Oppm);
   delay(1000); 
 }
